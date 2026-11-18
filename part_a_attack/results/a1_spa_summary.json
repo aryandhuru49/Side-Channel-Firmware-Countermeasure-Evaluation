@@ -1,0 +1,38 @@
+{
+  "recovered": "h0px3",
+  "accepted_by_device": true,
+  "device_queries": 180,
+  "bruteforce_space": 60466176,
+  "positions": [
+    {
+      "position": 0,
+      "char": "h",
+      "divergence_sample": 433,
+      "margin": 50.5
+    },
+    {
+      "position": 1,
+      "char": "0",
+      "divergence_sample": 473,
+      "margin": 49.56
+    },
+    {
+      "position": 2,
+      "char": "p",
+      "divergence_sample": 513,
+      "margin": 48.43
+    },
+    {
+      "position": 3,
+      "char": "x",
+      "divergence_sample": 553,
+      "margin": 45.61
+    },
+    {
+      "position": 4,
+      "char": "3",
+      "divergence_sample": 604,
+      "margin": 49.72
+    }
+  ]
+}

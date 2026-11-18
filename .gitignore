@@ -1,0 +1,7 @@
+# Third-party reference material and trace data (fetched by tools/fetch_reference.py)
+reference/
+data/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/

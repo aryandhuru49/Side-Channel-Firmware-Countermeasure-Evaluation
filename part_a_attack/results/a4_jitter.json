@@ -1,0 +1,85 @@
+{
+  "base_campaign": "lab4_1",
+  "n_traces": 1000,
+  "model": "SCA201 ADD_JITTER random delay applied in software to real captures",
+  "jitter_delay_samples": [
+    0,
+    30
+  ],
+  "residual_subsample_jitter": 1.2,
+  "resync": {
+    "ref_start": 1900,
+    "ref_len": 150,
+    "max_shift": 40,
+    "kept": 1000
+  },
+  "results": {
+    "undefended": {
+      "per_byte": [
+        40,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        40,
+        40,
+        40,
+        60,
+        40,
+        20,
+        40,
+        20,
+        40
+      ],
+      "whole_key_ttd": 60,
+      "bytes_recovered": 16
+    },
+    "jitter_no_resync": {
+      "per_byte": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "whole_key_ttd": -1,
+      "bytes_recovered": 0
+    },
+    "jitter_plus_resync": {
+      "per_byte": [
+        780,
+        40,
+        40,
+        240,
+        200,
+        80,
+        60,
+        20,
+        660,
+        60,
+        100,
+        60,
+        220,
+        60,
+        60,
+        220
+      ],
+      "whole_key_ttd": 780,
+      "bytes_recovered": 16
+    }
+  },
+  "difficulty_multiplier_resync_vs_undefended": 13.0
+}

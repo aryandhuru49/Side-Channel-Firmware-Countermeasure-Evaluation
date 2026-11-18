@@ -1,0 +1,5 @@
+# Python 3.12 tested. Analysis code depends only on numpy and matplotlib.
+numpy==2.2.0
+matplotlib==3.10.0
+# Trace data is the NewAE "cwtraces" wheel (0.2.0). It is NOT installed as a package:
+# tools/fetch_reference.py downloads it, checks its SHA-256 and unpacks only the data files.

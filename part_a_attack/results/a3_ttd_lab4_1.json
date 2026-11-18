@@ -1,0 +1,26 @@
+{
+  "campaign": "lab4_1",
+  "n_traces": 1000,
+  "checkpoint_step": 10,
+  "recovered_key": "2b7e151628aed2a6abf7158809cf4f3c",
+  "ttd_per_byte": [
+    30,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    30,
+    40,
+    30,
+    50,
+    30,
+    20,
+    30,
+    20,
+    30
+  ],
+  "whole_key_ttd": 50,
+  "mean_ttd": 26.9
+}
